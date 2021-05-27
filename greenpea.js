@@ -263,7 +263,7 @@ if (virus[0].x == 75 && virus[0].y == 50) {virus[0].speedX = 0; virus[0].speedY 
       meat[i].update();
       if ((mybottom >= meat[i].y && myright >= meat[i].x && mytop <= (meat[i].y+meat[i].height) && myleft <= meat[i].x + meat[i].width) || 
           (mytop <= (meat[i].y + meat[i].height) && myright >= meat[i].x && mybottom >= meat[i].y && myleft <= meat[i].x + meat[i].width)){
-          score += 300
+          score += 3
           document.getElementById("meat_count").innerHTML =": "+(meatcount+=1);
           meat[i].newPosf();
       }
