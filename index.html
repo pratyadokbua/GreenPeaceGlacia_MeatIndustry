@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-        <link rel = "icon" href = "hero.gif"type = "image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sigmar+One">
+ 
+        
         <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/games/gam-10/gam987.ani), url(https://cur.cursors-4u.net/games/gam-10/gam987.png), auto;}</style><a href="https://www.cursors-4u.com/cursor/2009/06/02/animated-dragonica-star-glove-pointer.html" target="_blank" title="Animated Dragonica Star Glove Pointer"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Animated Dragonica Star Glove Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
-        <title>Hero's Duty TheGame</title>
-       <style>
+    <style>
 body{
   display:flex;
   justify-content: center;
   background: url(BGJG.gif);
 }
-body::-webkit-scrollbar {
-  display: none;
-}
-body::-webkit-scrollbar {
-  display: none;
-}        
 canvas {
   border: 10px solid pink;
   border-image: repeating-linear-gradient( 45deg, green, hsl(76, 57%, 51%) 1%, hsl(24, 60%, 23%) 1%, hsl(25, 34%, 39%) 8%) 10;
@@ -32,37 +27,42 @@ canvas {
   background-size: 20%;
 }
 interface {
-  border-radius: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-  text-align: center;
-  width: 600px;
-  height: 720px;
-  background-image:
-  linear-gradient(hsla(110, 50%, 70%, 0.9),
-  hsla(92, 62%, 72%, 0.9),hsla(73, 72%, 75%, 0.90));
-  font-family: "Itim", serif;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+text-align: center;
+padding:30px;
+width: 500px;
+border: 15px solid;
+border-image: repeating-linear-gradient( 45deg, green, hsl(76, 57%, 51%) 1%, hsl(24, 60%, 23%) 1%, hsl(25, 34%, 39%) 8%) 10;
+background-image: radial-gradient(#D09D7B, #886248 );
+font-family: 'Chakra Petch', sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 button{
-  color: rgb(92, 92, 92);
-  border: 3px solid #fd643e;
-  border-radius: 5px;
-  padding: 18px 36px;
-  display: inline-block;
-  font-family: "Itim", serif;
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 #e9c46a;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
-}
-button:hover {
-  box-shadow: inset 400px 0 0 0 #ff9035;
-}
+            background-color:#E3C6AD;
+            border-radius:20px;
+            border:1px solid #D09D7B;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:'Aldrich', sans-serif;
+            font-size:24px;
+            font-weight:bold;
+            padding:3px 23px;
+            text-decoration:none;
+            text-shadow:0px 1px 24px #b23e35;
+        }
+button:hover{
+            animation: cursorover infinite linear 0.4s;
+        }
+        button:active{
+            transform: scale(0.95);
+        }
 figcaption {
   font-family: "Itim", serif;
   font-size: 20px;
@@ -79,36 +79,41 @@ p {
   font-family: "Itim", serif;
   font-size: 23px;
   text-align: center;
-  color: rgb(243, 219, 4);
+  color: hsl(110, 50%, 70%);
+  font-family: 'Mitr', sans-serif;
   text-shadow: -1px 0 rgb(0, 0, 0), 0 1px black,1px 0 black, 0 -1px black
 }
 
 hds{
-  font-family: "Itim", serif;
-  font-size: 40px;
-  color: #fbff0d;
-  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px black,
-      1px 0 black, 0 -1px black
-}
+            color:#E3C6AD;
+            font-size: 32px;
+        }
 #food{
-  display:flex;
-  justify-content: center;
-  text-align: center;
+display:flex;
+justify-content: center;
+text-align: center;
+font-weight:bold;
 }
 #stats, #canvas, #dshowto, #dshowto2, #goodend-page,#badend-page, #killed{
   display: none;
 }
-@keyframes moving {
-  from {top:100px;}
-  to {top:0px;}
-}
+@keyframes cursorover {
+            50%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
 #tips{
   width:300px;
-  /* background: white; */
   text-align: center;
   color: white
 
 }
+
+
+
 ending{
   display: flex;
   justify-content: center;
@@ -120,13 +125,18 @@ ending{
   text-align: center;
   border-radius: 25px;
 }
+@keyframes squezz{
+            25%{transform: rotatez(2deg);}
+            50%{transform: scale(1.05);}
+            100%{transform: scale(1) rotatez(-2deg);}
+        }
 
         </style>
     </head>
-    <body>
+    <body onload="display()">
 
-        <interface id="dsplay" style="display:inline-block;"><br><br>
-            <hds >Hero's Duty</hds><br><br>
+        <interface id="dsplay" style="display:inline-block;">
+          <div style="animation: squezz 1s alternate infinite; font-family: 'Sigmar One', cursive; background:#7e5c50; border-radius: 20px;"><hds style="color: #da7d3f;">Hero's Duty's</hds></div><br><br>
             <img  src="hero.gif" style="width: 300px;; height: 300px;;"><br><br><br>
             <button onclick="startGame()"><img src="Meat.gif"
                 width="17" height="17" style="vertical-align:middle">START<img src="Meat.gif"
@@ -139,10 +149,10 @@ ending{
         </interface>
 
         <interface id="dshowto">
-          <br><br>
+          <br>
           <hds>How to Play</hds>
           <p>คุณคือจอมยุทธ์!!! ผู้มีจิตใจดีงามที่จะช่วยเหลือผู้คนในหมู่บ้านที่หิวโหย คุณนั้นต้องการพลังพลังหาได้จากการกิน คุณจึงต้องเข้าป่าไปเพื่อเติมพลังของคุณและนำอาหารที่หามาได้กลับไปช่วยเหลือคนในหมู่บ้าน ไม่ให้อดอยากนั่นเอง</p>
-          <p style="text-decoration: underline; text-decoration-color:rgb(255, 240, 104);">อาหารที่คุณหาได้ในป่า</p>
+          <p style="text-decoration: underline;">อาหารที่คุณหาได้ในป่า</p>
           <div id="food">
             <figure>
                 <p><img src="Meat.gif"
@@ -163,7 +173,7 @@ ending{
         <interface id="dshowto2"><br>
           <hds id="headhowto">How to Play</hds>
           <p>แน่นอนว่าป่าผืนนี้ไม่ได้โรยด้วยกลีบกุหลาบ ขึ้นชื่อว่าป่าแน่นอนว่าคุณจะต้องพบกับสัตว์ร้าย แต่ไม่ต้องห่วงหากคุณไม่ทำอะไรกับมันเรื่องร้ายคงไม่เกิด ภัยร้ายอีกนึงอย่างคือ Virus ที่จะทำให้จอมยุทธ์อ่อนแรงลง ขอให้คุณเดินทางอย่างปลอดภัยท่านจอมยุทธ์</p>
-          <p style="text-decoration: underline; text-decoration-color:rgb(255, 240, 104);">ภัยร้ายต่างๆ</p>
+          <p style="text-decoration: underline;">ภัยร้ายต่างๆ</p>
           <div id="food">
             <figure>
               <p><img src="Tiger.gif"
@@ -177,20 +187,20 @@ ending{
               </figure>
             </figure>
           </div>
-          <p style="display: inline-block; text-align:center; border-radius:25px;background-color: rgb(255, 70, 70); width:300px; padding:10px;">  Use 🢁 🢃 🢀 🢂 to move  </p>
+          <p style="display: inline-block; text-align:center; border-radius:25px;color:#4d4d4d; background-color: rgba(255, 252, 98, 0.884); width:300px; padding:10px;">  Use 🢁 🢃 🢀 🢂 to move  </p>
           <br><button onclick="goMain()">MainMenu</button>
           <button onclick="howToPlay()"><</button>
         </interface>
 
         <ending id="goodend-page">
-          <hds id="goodtext">Ending</hds>
+          <hds id="goodtext" style="font-family: 'Sigmar One', cursive; color:hsl(90, 100%, 27%)">Ending</hds>
           <img id="gpic1" src="good.jpg" style="width:1100px; margin:5px; display:block;">
           <button id ="goodbutt" onclick="changepic1()">></button>
           <a id="goodwbutt" style="display: none;" href="เขียว.html"><button>webpage</button></a>
         </ending>
 
         <ending id="badend-page">
-          <hds id="badtext">Ending</hds>
+          <hds id="badtext" style="font-family: 'Sigmar One', cursive; color:hsl(24, 60%, 15%)">Ending</hds>
           <img id="bpic1" src="badend.jpg" style="width:1100px; margin:5px; display:block;">
           <button id ="bbbutt" onclick="changepic2()">></button>
           <a id="badbutt" style="display: none;" href="แดง.html"><button>webpage</button></a>
@@ -200,14 +210,14 @@ ending{
           <hds>Die</hds><br>
           <h1>Try Again?</h1><br><br>
           <button onclick="startGame()">Yes</button>
-          <a href="แดง.html"><button>Campange!</button></a>
+          <a href="แดง.html"><button>Campaign!</button></a>
           <img src="" alt="">
         </interface>
 
         <canvas id="canvas"></canvas>
         <div id="stats" style="padding: 10px; background-image: radial-gradient(circle, hsl(25, 34%, 40%), hsl(25, 27%, 52%), hsl(25, 34%, 40%)); height: 350px; margin:10px; border: 10px solid pink;border-image: repeating-linear-gradient( 45deg, green, hsl(76, 57%, 51%) 1%, hsl(24, 60%, 23%) 1%, hsl(25, 34%, 39%) 8%) 10;font-family: 'Amatic SC', cursive; font-size:large;color:white;">
-          <div id="progbar" style="width:300px; background: black">
-            <div id="myprog" style="width:0%; height:30px; background-image: linear-gradient(hsl(80, 100%, 62%), hsl(90, 100%, 49%), hsl(80, 100%, 62%));"></div>
+          <div id="progbar" style="width:300px; background: #E3C6AD; border-radius: 10px;">
+            <div id="myprog" style=" border-radius:10px; width:0%; height:30px; background-image: linear-gradient(hsl(80, 100%, 62%), hsl(90, 100%, 49%), hsl(80, 100%, 62%));"></div>
           </div>
           <h1 id="hp" style="display:block; margin:3px;"></h1><br>
           <div> 
@@ -219,7 +229,9 @@ ending{
           <br></br>
           <div id="tips">
               <p>**กินเนื้อให้น้อยกินผักให้มาก**</p>
-          </div>
+          </div><br><br>
+          <button onclick="goMain()">Main Menu</button><br><br>
+        <a href="แดง.html" style="margin:5px;"><button>Campaign!</button></a>
         </div>
 
       </body>
